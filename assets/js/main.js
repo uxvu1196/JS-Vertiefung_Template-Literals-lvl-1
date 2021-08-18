@@ -20,8 +20,14 @@ let sport = "jogging, pole, hiking, gym"
 let favFood = "asian food, italian food, actually everything"
 let favBrand = "everything what suits me"
 let favTime = "Summer"
-let favHolidayPlace ="Greece, Spain, Vietnam, Croatia, Amsterdam, actually every country has their beautiful side"
+let favHolidayPlace ="Greece, Spain, Vietnam, Croatia, Amsterdam, and more"
+// String concatenation
+// \n ist ein neuer Abatz, aber wenn man einen neuen console.log macht, entsteht auto. ein neuer Absatz
+console.log("My name is " + name + " " + lastName + " and I'm " + age + ".")
+console. log("I was born and raised in " + birthPlace + " " + "and I'm " + height + " tall.")
+document.write("My name is " + name + " " + lastName + " and I'm " + age + ". <br> <br>  ")
+document.write("I was born and raised in " + birthPlace + " " + "and I'm " + height + " tall. <br> <br>")
 
-
-
-
+//Template literals
+console.log(`My Hobbys are ${hobbys} and ${games}. \nI like to do/go ${sport}. My favorite Food is ${favFood} and my favorite Brand is ${favBrand}. \n My favorite time in the year is ${favTime} and  I like to travel to ${favHolidayPlace} when it's holidays. \n`)
+document.write(`My Hobbys are ${hobbys} and ${games}. <br>  <br>I like to do/go ${sport}. <br> <br>  My favorite Food is ${favFood} and my favorite Brand is ${favBrand}. <br> <br> My favorite time in the year is ${favTime} and  I like to travel to ${favHolidayPlace} when it's holidays.`)
